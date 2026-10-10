@@ -49,7 +49,7 @@ class BeerControllerTest {
                 .beerName("Beer1")
                 .beerStyle(BeerStyleEnum.PALE_ALE)
                 .price(new BigDecimal("12.99"))
-                .quantityOnHand(4)
+            .quantityOnHand(4)
                 .upc(123456789012L)
                 .createdDate(OffsetDateTime.now())
                 .lastModifiedDate(OffsetDateTime.now())
